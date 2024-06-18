@@ -1,0 +1,32 @@
+.movers-component {
+    background-color: #f9f9f9;
+    padding: 20px;
+
+    &__section {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+
+        &-item {
+            margin-bottom: 10px;
+
+            a {
+                text-decoration: none;
+                color: #007bff;
+                svg {
+                    margin-right: 0.5rem;
+                    transform: rotate(-45deg);
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

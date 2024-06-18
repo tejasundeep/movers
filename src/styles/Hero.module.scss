@@ -1,0 +1,32 @@
+.hero {
+    height: 424px;
+    position: relative;
+    color: #fff;
+
+    &__title {
+        position: relative;
+    }
+
+    &__search {
+        position: relative;
+        max-width: 350px;
+        margin: auto;
+
+        svg {
+            position: absolute;
+            left: 1rem;
+            top: 2rem;
+            color: #a6a6a6;
+        }
+
+        input {
+            padding-left: 3.25rem;
+            border: 0;
+            outline: none;
+            box-shadow: none !important;
+            &::placeholder {
+                color: #a6a6a6;
+            }
+        }
+    }
+}

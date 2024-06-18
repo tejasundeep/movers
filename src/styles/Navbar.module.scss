@@ -1,0 +1,27 @@
+.NavBar__container {
+    background-color: #fff !important;
+    padding: 0.65rem;
+
+    &__menu {
+        white-space: nowrap;
+        a {
+            padding: 10px 30px !important;
+            color: #000000;
+            font-size: 14.5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: sans-serif;
+
+            @media(min-width: 1200px) and (max-width: 1440px) {
+                font-size: 13px;
+                padding: 10px 12px !important;
+            }
+        }
+
+        div {
+            a.nav-link {
+                padding-right: 0 !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.journey {
+    &__step {
+        text-align: center;
+
+        &__icon {
+            color: #58b382;
+        }
+
+        &__title {
+            font-size: 1.25rem;
+            margin-top: 10px;
+            font-weight: 900;
+        }
+
+        &__description {
+            font-size: 1rem;
+            margin-top: 10px;
+            color: #6c757d;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.moversList {
+    &__item {
+        border-top: 1px solid #ddd;
+        padding: 1rem 0;
+
+        &:nth-child(3) {
+            border-bottom: 1px solid #ddd;
+        }
+    }
+
+    &__disclaimer {
+        font-size: 13px !important;
+        color: #4f4f4f;
+    }
+}
